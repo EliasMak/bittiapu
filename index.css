@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+nav ul {
+    background-color: #3D90D7;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #1A1A1A;
+}
+
+p {
+    color: #5A5A5A;
+}
