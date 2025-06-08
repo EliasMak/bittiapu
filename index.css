@@ -103,6 +103,10 @@ main {
 .topnav {
   background-color: #3d90d7;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 /* Style the links inside the navigation bar */
@@ -114,6 +118,8 @@ main {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition: 0.15s ease-in-out;
+
 }
 
 /* Change the color of links on hover */
@@ -156,10 +162,14 @@ main {
     text-align: left;
   }
 }
-.navlogo {
-    width: auto;
-    height: 54px;
+
+.topnav.responsive {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
+
 
 h1 {
     color: #1A1A1A;
